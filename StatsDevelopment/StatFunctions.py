@@ -102,7 +102,7 @@ class StatFunctions():
         df = df.nsmallest(nresults, Property)
         return df
 
-    def OWStats(self, df, nresults, Property = "All"):
+    def PolymerSelection(self, df, nresults, Property = "All"):
 
         '''Runs all of the above functions in one neat function. 
 
